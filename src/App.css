@@ -1,0 +1,54 @@
+.word {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.winner {
+  position: fixed;
+  top: 10vh;
+  left: 30vw;
+  width: 40vw;
+  height: 30vh;
+
+  background-color: green;
+  z-index: 5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loser {
+  position: fixed;
+  top: 10vh;
+  left: 30vw;
+  width: 40vw;
+  height: 30vh;
+
+  background-color: red;
+  z-index: 5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+  margin: 0 5px;
+  min-width: 30px;
+  height: 50px;
+  display: block;
+  text-align: center;
+}
+
+.space {
+  min-width: 30px;
+  display: inline-block;
+}
+
+.Gallow {
+  width: 30vw;
+  border: 1px dotted black;
+}
